@@ -1,95 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ashish Kumar Saini | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="My Intro Web Page">
+    <meta name="keywords" content="HTML, Intro Page, Web Designing">
+    <meta name="author" content="Ashish Kumar Saini">
+    <title>My Web Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header nav a {
+            color: yellow;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav a:hover {
+            color: orange;
+        }
+
+        /* Section styling */
+        section {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #home { background-color: #ffe6e6; }
+        #about { background-color: #e6f7ff; }
+        #education { background-color: #e6ffe6; }
+        #skills { background-color: #fff0cc; }
+        #portfolio { background-color: #f2e6ff; }
+        #contact { background-color: #ffe6cc; }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 10px;
+        }
+    </style>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
+
 <body>
-  <!-- Header Section -->
-  <header>
-    <h1>Ashish Kumar Saini</h1>
-    <p>Roll No: 25/B09/051 | Computer Science Engineering</p>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About Me</a>
-      <a href="#education">Education / Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <!-- Home Section -->
-  <section id="home" class="home">
-    <div class="intro">
-      <img src="profile.jpg" alt="Ashish Kumar Saini" class="profile">
-      <h2>Welcome to My Portfolio</h2>
-      <p>Hi, I’m <strong>Ashish Kumar Saini</strong> — a passionate learner and aspiring web developer.</p>
-    </div>
-  </section>
+    <!-- HEADER WITH NAV -->
+    <header>
+        <h1>Welcome to Web Designing Course</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <!-- About Me Section -->
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>I am currently pursuing a degree in Computer Science Engineering. I enjoy building creative and responsive websites. I’m always learning new technologies to improve my skills and build real-world projects that make an impact.</p>
-  </section>
+    <article>
 
-  <!-- Education / Skills Section -->
-  <section id="education" class="education">
-    <h2>Education & Skills</h2>
-    <div class="edu-skill">
-      <div>
-        <h3>Education</h3>
-        <ul>
-          <li>B.Tech in Computer Science Engineering</li>
-          <li>College: [Your College Name]</li>
-          <li>Roll No: 25/B09/051</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Skills</h3>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript (Basic)</li>
-          <li>C Programming</li>
-          <li>Python</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+        <!-- HOME SECTION -->
+        <section id="home">
+            <h2>Home</h2>
+            <p>
+                Hello! My name is Ashish Kumar Saini. <br>
+                This is my introductory web page created for the Web Designing Lab. <br>
+                It contains multiple sections that describe my profile and interests. <br>
+                You can navigate to different parts of this page using the links above.
+            </p>
+            <img src="profile.jpg.jpg" alt="Profile Picture">
+            <hr>
+        </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects">
-    <h2>My Projects</h2>
-    <div class="project-list">
-      <div class="project">
-        <h3>Personal Portfolio Website</h3>
-        <p>A responsive portfolio website built using HTML and CSS showcasing my profile and projects.</p>
-      </div>
-      <div class="project">
-        <h3>Student Record System</h3>
-        <p>A C language project for managing student details efficiently using file handling.</p>
-      </div>
-      <div class="project">
-        <h3>Quiz Game</h3>
-        <p>A console-based quiz game created in C using loops and conditions.</p>
-      </div>
-    </div>
-  </section>
+        <!-- ABOUT ME -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a student learning web designing and development. <br>
+                I am interested in technology, coding, and creative web layouts. <br>
+                My goal is to become a skilled full-stack web developer. <br>
+                This webpage is one of my lab assignments created using only HTML basics.
+            </p>
+            <hr>
+        </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <h2>Contact Information</h2>
-    <p>Email: <a href="mailto:ashishsuiwal2008@gmail.com">ashishsuiwal2008@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/ashish-kumar-saini-821979370/" target="_blank">View Profile</a></p>
-    <p>GitHub: <a href="https://github.com/ashishsuiwal2008-beep" target="_blank">Visit Repository</a></p>
-  </section>
+        <!-- EDUCATION -->
+        <section id="education">
+            <h2>Education</h2>
+            <p>
+                I am currently pursuing my education in Computer Science. <br>
+                I have studied programming fundamentals and web technologies. <br>
+                I regularly practice HTML, CSS, and JavaScript. <br>
+                I aim to strengthen my understanding of full-stack development.
+            </p>
+            <hr>
+        </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Ashish Kumar Saini | Roll No: 25/B09/051</p>
-  </footer>
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>
+                I have basic knowledge of HTML and CSS. <br>
+                I can design simple and structured web pages. <br>
+                I understand tags, hyperlinks, images, and basic layout principles. <br>
+                I am learning advanced concepts to improve my web development skills.
+            </p>
+            <hr>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p>
+                This section includes some of my sample work. <br>
+                I have created small webpages for lab submissions. <br>
+                My projects include timetable layouts, forms, and list-based pages. <br>
+                I will continue adding more work as I learn more.
+            </p>
+            <hr>
+        </section>
+
+        <!-- CONTACT INFO -->
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>
+                Email: <a href="mailto:ashishsuiwal2008@gmail.com">ashishsuiwal2008@gmail.com</a> <br>
+                Phone: <a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a> <br>
+                GitHub: <a href="https://github.com/ashishsuiwal2008-beep" target="_blank">Click Here</a> <br>
+                LinkedIn: <a href="https://www.linkedin.com/in/ashish-kumar-saini-821979370/" target="_blank">Click Here</a>
+            </p>
+            <hr>
+        </section>
+
+    </article>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 Ashish Kumar Saini | Web Designing Lab Project
+    </footer>
+
 </body>
 </html>
+
